@@ -1,0 +1,21 @@
+{
+    "result": 1,
+    "post_cnt": [           #포스팅 수 가장 많은 해시태그 순위입니다.
+        {
+            "hashtag": "젤네일",
+            "post_cnt": 9810379
+        }
+    ],
+    "post_increase_amount": [       #최근 포스팅 증가량이 급격히 높아지는 순위입니다.
+        {
+            "hashtag": "사랑의콜센타영탁",
+            "post_per_day": 18017
+        }
+    ],
+    "post_increase_rate": [         #최근 포스팅 증가율이 급격히 높아지는 순위입니다.
+        {
+            "hashtag": "영탁선한영향력",
+            "rate_per_day": 118.26
+        }
+    ]
+}
