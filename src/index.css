@@ -1,4 +1,5 @@
 body {
+  background-color: slategrey;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,117 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.hashtaging {
+  color: chartreuse;
+  text-align: left;
+}
+
+.hashtaging:hover{
+  cursor: pointer;
+}
+
+div.main-data > div > span {
+  padding-left: 0.2em;
+}
+
+/** nth-child : 3번째 span이면서 up span이 있을 경우*/
+span.up {
+  color : red;
+}
+
+span.up::before{
+  content : '↑';
+}
+
+/** nth-child : 3번째 span이면서 down span이 있을 경우*/
+span.down {
+  color : blue;
+}
+
+span.down::before{
+  content : '↓';
+}
+
+.button-slide {
+  color: blueviolet;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.2s;
+  margin-left: 10px;
+}
+
+.button-slide.chioce {
+  background-color: #D80286;
+}
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  font-size: 0.5rem;
+  color:lavenderblush;
+}
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.count{
+  text-align: center;
+  width: 45%;
+  border: 1px solid;
+  float: left;
+  height: 1000px;
+  overflow: scroll;
+}
+.percent{
+  text-align: center;
+  float: left;
+  border: 1px solid;
+  width: 45%;
+  height: 1000px;
+  overflow: scroll;
+}
+
+.button-group{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.best-hashtag::after {
+  content: ', ';
+}
+
+.best-hashtag:last-child::after {
+  content: '';
+}
+
+.test {
+  display: none;
+}
+
+.test.on{
+  display: block;
+  cursor: pointer;
 }

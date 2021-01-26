@@ -22,3 +22,9 @@ exports.numberFormat = (data) => {
     
     return n;
 }
+
+exports.dateYmd = (data) => {
+    data = data.split(' ');
+
+    return data[0];
+}
