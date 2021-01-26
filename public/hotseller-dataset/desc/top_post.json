@@ -1,0 +1,15 @@
+{
+    "result": 1,
+    "top_like_list": [                  #좋아요가 가장 많은 게시물 순위입니다.
+        {
+            "like_cnt": 5626571,        #좋아요 수
+            "comment_cnt": 62351,       #댓글 수
+            "hashtag_cnt": 0,           #본문 해시태그 수
+            "mov_cnt": 1,               #영상 수
+            "pic_cnt": 1,               #사진 수
+            "post_time": "1608866589",  #포스팅 시간
+            "url": "url1",              #url
+            "username": "id1"           #사용자 아이디
+        }
+    ]
+}

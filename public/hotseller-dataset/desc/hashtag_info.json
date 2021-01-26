@@ -1,0 +1,200 @@
+{
+    "result": 1,
+    "info": {                       #기본 정보 입니다.
+        "hashtag": "네일아트",        #해시태그
+        "post_cnt": 11189666        #포스팅 수
+    },
+    "top_relation": [               #가장 관련있는 해시태그 순위입니다.
+        {
+            "hashtag": "네일",
+            "post_cnt": 9566988
+        }
+    ],
+    "top_autocomplete": [           #해당 해시태그가 포함된 해시태그 중 관련도 순위입니다.
+        {
+            "hashtag": "네일아트디자인",
+            "post_cnt": 717146
+        }
+    ],
+    "lately_popular": [             #최근 인기게시물 목록입니다.
+        {
+            "url": "url1",                  #게시물 주소
+            "like_cnt": 386,                #좋아요 수
+            "comment_cnt": 0,               #댓글 수
+            "mov_cnt": 0,                   #영상 수
+            "pic_cnt": 1,                   #사진 수
+            "post_time": "1611238219",      #포스팅 시간
+            "id_data": {                    #포스팅 한 아이디 정보입니다
+                "username": "id1",          #아이디
+                "follower_cnt": 1280,       #팔로워 수
+                "follow_cnt": 981,          #팔로우 수
+                "post_cnt": 1439,           #포스팅 수
+                "average_like_cnt": 326,    #게시물 평균 좋아요 수
+                "average_comment_cnt": 0,   #게시물 평균 댓글 수
+                "average_post_hour": 34,    #게시물 평균 포스팅 간격(시간)
+                "full_name": "name1",       #사용자 이름
+                "is_business": true,        #비즈니스 여부
+                "is_verified": false,       #인증 계정 여부
+                "post_list": [              #최근 포스팅 리스트입니다.
+                    {
+                        "url": "url1",                      #주소
+                        "post_time": "1611238347",          #포스팅 시간
+                        "like_cnt": 350,                    #좋아요 수
+                        "comment_cnt": 0,                   #댓글 수
+                        "contents": "contents1",            #본문 내용
+                        "hashtag_cnt": 0,                   #본문에 포함 된 해시태그 수
+                        "content_length": 472,              #본문 길이
+                        "pic_cnt": 1,                       #사진 수
+                        "mov_cnt": 0                        #영상 수
+                    }
+                ],
+                "recent_hashtag_list": [                    #최근 자주 사용한 해시태그 목록입니다.
+                    {
+                        "hashtag": "노원역5번출구",            #해시태그
+                        "count": 12                         #사용 수
+                    }
+                ]
+            }
+        }
+    ],
+    "top_remain": [                                     #해당 태그 인기게시물에서 가장 오래 유지한 게시물 순위입니다.
+        {
+            "remain": 143788,                           #유지한 시간(초)
+            "url": "url1",
+            "like_cnt": 1703,
+            "comment_cnt": 16,
+            "mov_cnt": 0,
+            "pic_cnt": 1,
+            "post_time": "1609218062",
+            "id_data": {
+                "username": "id1",
+                "follower_cnt": 25787,
+                "follow_cnt": 3174,
+                "post_cnt": 2736,
+                "average_like_cnt": 123,
+                "average_comment_cnt": 1,
+                "average_post_hour": 14,
+                "full_name": "name1",
+                "is_business": true,
+                "is_verified": false,
+                "post_list": [
+                    {
+                        "url": "url1",
+                        "post_time": "1611224993",
+                        "like_cnt": 82,
+                        "comment_cnt": 2,
+                        "contents": "contents1",
+                        "hashtag_cnt": 0,
+                        "content_length": 639,
+                        "pic_cnt": 1,
+                        "mov_cnt": 0
+                    }
+                ],
+                "recent_hashtag_list": [
+                    {
+                        "hashtag": "포레스트",
+                        "count": 2
+                    }
+                ]
+            }
+        }
+    ],
+    "top_like": [                                       #해당 해시태그에서 가장 좋아요를 많이 받은 게시물 순위입니다.
+        {
+            "url": "url1",
+            "like_cnt": 12797,
+            "comment_cnt": 64,
+            "mov_cnt": 1,
+            "pic_cnt": 1,
+            "post_time": "1609840540",
+            "id_data": {
+                "username": "id1",
+                "follower_cnt": 302364,
+                "follow_cnt": 237,
+                "post_cnt": 2832,
+                "average_like_cnt": 2297,
+                "average_comment_cnt": 4,
+                "average_post_hour": 20,
+                "full_name": "name1",
+                "is_business": false,
+                "is_verified": false,
+                "post_list": [
+                    {
+                        "url": "url1",
+                        "post_time": "1611206148",
+                        "like_cnt": 1560,
+                        "comment_cnt": 3,
+                        "contents": "contents1",
+                        "hashtag_cnt": 0,
+                        "content_length": 379,
+                        "pic_cnt": 1,
+                        "mov_cnt": 1
+                    }
+                ],
+                "recent_hashtag_list": [
+                    {
+                        "hashtag": "겨울네일",
+                        "count": 10
+                    }
+                ]
+            }
+        }
+    ],
+    "top_comment": [                                       #해당 해시태그에서 가장 댓글이 많이 달린 게시물 순위입니다.
+        {
+            "url": "url1",
+            "like_cnt": 1582,
+            "comment_cnt": 84,
+            "mov_cnt": 1,
+            "pic_cnt": 1,
+            "post_time": "1609219956",
+            "id_data": {
+                "username": "id1",
+                "follower_cnt": 9494,
+                "follow_cnt": 168,
+                "post_cnt": 1647,
+                "average_like_cnt": 1385,
+                "average_comment_cnt": 25,
+                "average_post_hour": 36,
+                "full_name": "name1",
+                "is_business": true,
+                "is_verified": false,
+                "post_list": [
+                    {
+                        "url": "url1",
+                        "post_time": "1611122876",
+                        "like_cnt": 1629,
+                        "comment_cnt": 37,
+                        "contents": "contents1",
+                        "hashtag_cnt": 0,
+                        "content_length": 703,
+                        "pic_cnt": 1,
+                        "mov_cnt": 0
+                    }
+                ],
+                "recent_hashtag_list": [
+                    {
+                        "hashtag": "홍대네일",
+                        "count": 12
+                    }
+                ]
+            }
+        }
+    ],
+    "top_id_{n}": [                                       #최근 n일동안 해당 해시태그에서 가장 활동을 많이 한 아이디 순위입니다.
+        {
+            "score": 20,
+            "username": "id1",
+            "follower_cnt": 2161,
+            "follow_cnt": 125,
+            "post_cnt": 309,
+            "average_like_cnt": 116
+        }
+    ],
+    "post_log": [                                           #최근 1년간 포스팅 수 추이입니다. !실제 데이터와 다릅니다.
+        {
+            "check_date": "2020-01-23",
+            "post_cnt": 8749910
+        }
+    ]
+}
